@@ -1,4 +1,6 @@
 #!/bin/bash
 sudo amazon-linux-extras install php8.3
 sudo yum update -y
-sudo yum install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php
+sudo yum install -y php php-mysqli httpd php-gd mariadb
+
+# No match for aurgument to install apache2, mariadb, and libapache2-mod-php ????
