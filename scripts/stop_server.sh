@@ -1,5 +1,5 @@
 #!/bin/bash
-isExistApp="pgrep httpd"
+isExistApp="pgrep apache2"
 if [[ -n $isExistApp ]]; then
 systemctl stop apache2
 fi
@@ -10,5 +10,4 @@ fi
 isExistApp=pgrep php-fpm
 if [[ -n $isExistApp ]]; then
 systemctl stop php-fpm.service
-
 fi
