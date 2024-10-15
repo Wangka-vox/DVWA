@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo systemctl start mariadb
-sudo systemctl start apache2
+systemctl start mariadb
+systemctl start apache2
