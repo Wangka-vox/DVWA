@@ -7,7 +7,7 @@ DB_PASS="p@ssw0rd"
 # SQL commands
 SQL_COMMANDS="
 CREATE DATABASE dvwa;
-CREATE USER dvwa@localhost IDENTIFIED BY p@ssw0rd;
+CREATE USER dvwa@localhost IDENTIFIED BY 'p@ssw0rd';
 GRANT ALL PRIVILEGES ON dvwa.* TO dvwa@localhost;
 FLUSH PRIVILEGES;
 "
