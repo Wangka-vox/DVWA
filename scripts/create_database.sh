@@ -13,7 +13,7 @@ FLUSH PRIVILEGES;
 "
 
 # Connect to MySQL/MariaDB and execute commands
-mysql -u"$DB_USER" -p"$DB_PASS" -e "$SQL_COMMANDS"
+mysql -u "$DB_USER" -p"$DB_PASS" -e "$SQL_COMMANDS"
 
 echo "Database and user setup completed."
 
