@@ -43,5 +43,6 @@ $page[ 'body' ] .= "
 </div>";
 
 dvwaHtmlEcho( $page );
-
+// default username: admin
+// default password: password=p@ssw0rd
 ?>

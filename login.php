@@ -7,6 +7,9 @@ dvwaPageStartup( array( ) );
 
 dvwaDatabaseConnect();
 
+// username=admin
+// passwd=password
+
 if( isset( $_POST[ 'Login' ] ) ) {
 	// Anti-CSRF
 	if (array_key_exists ("session_token", $_SESSION)) {
